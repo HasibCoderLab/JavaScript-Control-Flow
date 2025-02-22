@@ -22,7 +22,18 @@ console.log(chekeLength("HTML"))
 
 const whatLove = (love) =>{
     if(love === "Rose"){
-       return
+       return "He/She  loves flowers.";
+    }
+
+    else if (love==="Coding"){
+        return "He/She loves technology.";
+    }
+
+    else if(love === "Mother" || love === "Father"){
+        return "He/She loves parents.";
+    }
+    else{
+       return "He/She is not human.";
     }
 
 }
