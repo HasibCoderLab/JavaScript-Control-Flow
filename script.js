@@ -16,6 +16,8 @@ console.log(chekeLength("HTML"))
 // Output: Please change your idea
 
 
+// -----------------------------------------------------------------
+
 // ========================
 //      ***** Practice Problem 2 *****
 // ======================== 
@@ -48,3 +50,4 @@ console.log(whatLove("Coding"))
 // Output: He/She loves technology.
 
 
+// -----------------------------------------------------------------
