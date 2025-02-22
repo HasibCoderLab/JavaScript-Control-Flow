@@ -37,3 +37,14 @@ const whatLove = (love) =>{
     }
 
 }
+
+console.log(whatLove("Rose"))
+// Output: He/She  loves flowers.
+
+console.log(whatLove(""))
+// Output: He/She is not human.
+
+console.log(whatLove("Coding"))
+// Output: He/She loves technology.
+
+
