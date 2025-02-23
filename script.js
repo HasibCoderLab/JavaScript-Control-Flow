@@ -129,5 +129,10 @@ const biggestNumber =  (a,b) =>{
 }
 
 console.log(biggestNumber(10,20))
+// Output: 20
+
 console.log(biggestNumber(30,10));
-console.log(biggestNumber(20,30))
+// Output: 30
+
+console.log(biggestNumber(0.5,0))
+// Output: 0.5
