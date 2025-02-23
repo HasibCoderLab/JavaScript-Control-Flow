@@ -136,3 +136,25 @@ console.log(biggestNumber(30,10));
 
 console.log(biggestNumber(0.5,0))
 // Output: 0.5
+
+
+
+
+// ========================
+//      ***** Practice Problem 6 *****
+// ======================== 
+
+const checkEven = (num) =>{
+    if(num % 2 ===0){
+        return "Even"
+    }
+    else{
+        return "Odd"
+    }
+}
+
+console.log(checkEven(21));
+// Output: Odd
+console.log(checkEven(10));
+// Output: Even
+
