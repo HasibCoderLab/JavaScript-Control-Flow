@@ -4,15 +4,15 @@
 
 const checkLength = (name) =>{
     if(name.length > 6){
-        return "Accept your idea"
+        return "Accept your idea" ;
     }
     else{
-        return"Please change your idea"
+        return"Please change your idea" ;
     }
 }
-console.log(checkLength("JavaScript"))
+console.log(checkLength("JavaScript")) ;
 // Output:Accept your idea
-console.log(checkLength("HTML")) 
+console.log(checkLength("HTML")) ;
 // Output: Please change your idea
 
 
@@ -22,9 +22,9 @@ console.log(checkLength("HTML"))
 
 const seeLength = (name) => name.length > 5 ? "Accept your idea" : "Please change our idea"
 
-console.log(checkLength("JavaScript"))
+console.log(checkLength("JavaScript")) ;
 // Output:Accept your idea
-console.log(checkLength("HTML")) 
+console.log(checkLength("HTML")) ;
 // Output: Please change your idea
 
 
@@ -55,13 +55,13 @@ const whatLove = (love) =>{
 
 }
 
-console.log(whatLove("Rose"))
+console.log(whatLove("Rose")) ;
 // Output: He/She  loves flowers.
 
-console.log(whatLove(""))
+console.log(whatLove("")) ;
 // Output: Please enter a valid choice 
 
-console.log(whatLove("Coding"))
+console.log(whatLove("Coding")) ;
 // Output: He/She loves technology.
 
 
@@ -85,19 +85,19 @@ console.log(checkNumber(-10));
 
 const checkNum  = (num) =>{
 if(num > 0){
-    return "Positive"
+    return "Positive" ;
 }
 else if(num < 0){
-    return "Negative"
+    return "Negative" ;
 }
 else{
-    return "Zero"
+    return "Zero" ;
 }
 }
 
 console.log(checkNum(4));
 // Output: Positive
-console.log(checkNum(-1))
+console.log(checkNum(-1)) ;
 // Output: Negative
 
 
@@ -109,24 +109,24 @@ console.log(checkNum(-1))
 //      ***** Practice Problem 4 *****
 // ======================== 
 
-const studentNumber = (input) => input >= 40 ? "Pass" : "Fail"
-console.log(studentNumber(50))
+const studentNumber = (input) => input >= 40 ? "Pass" : "Fail" ;
+console.log(studentNumber(50)) ; 
 // Output: Pass
 
 // -------------------- Or   -------------------------------
 
 const studentNum = (input) =>{
 if(input >= 40){
-    return "Pass"
+    return "Pass" ; 
 }
 else{
-    return "Fail"
+    return "Fail" ;
 }
 }
 
-console.log(studentNum(30))
+console.log(studentNum(30)) ;
 // Output: Fail
-console.log(studentNum(50))
+console.log(studentNum(50)) ;
 // Output: Pass
 console.log(studentNum(39.99));
 // Output: Fail
@@ -141,24 +141,27 @@ console.log(studentNum(39.99));
 
 const biggestNumber =  (a,b) =>{
     if(a > b){
-        return a
+        return a ;
     }
-    //   else if (a < b){
-    //     return b
-    //   }
+      else if (a < b){
+        return b ;
+      }
     else{
-        return b
+        return "Both are equal";
     }
 }
 
-console.log(biggestNumber(10,20))
+console.log(biggestNumber(10,20));
 // Output: 20
 
 console.log(biggestNumber(30,10));
 // Output: 30
 
-console.log(biggestNumber(0.5,0))
+console.log(biggestNumber(0.5,0));
 // Output: 0.5
+
+console.log(biggestNumber(15,15));
+// Output :Both are equal
 
 
 // -----------------------------------------------------------------
@@ -169,12 +172,22 @@ console.log(biggestNumber(0.5,0))
 //      ***** Practice Problem 6 *****
 // ======================== 
 
+const checkOdd = (num) => num % 2 === 0 ? "Even" :"Odd" ;
+console.log(checkOdd(-20));
+// Output: Odd
+console.log(checkOdd(10));
+// Output: Even
+
+
+// -------------------- Or   -------------------------------
+
+
 const checkEven = (num) =>{
     if(num % 2 ===0){
-        return "Even"
+        return "Even" ;
     }
     else{
-        return "Odd"
+        return "Odd" ;
     }
 }
 
@@ -190,6 +203,19 @@ console.log(checkEven(10));
 // ========================
 //      ***** Practice Problem 7 *****
 // ======================== 
+
+const chackAdult = (age) => age >= 18 ? "You are adult" : "You are minor"
+
+console.log(chackAdult(17))
+//  Output: You are a minor."
+console.log(chackAdult(-19))
+//  Output: You are a minor."
+console.log(chackAdult(45));
+
+//  Output: You are a adult."
+// -------------------- Or   -------------------------------
+
+
 
 const checkAge = (age) =>{
     if(age >= 18){
