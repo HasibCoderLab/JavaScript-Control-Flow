@@ -2,7 +2,7 @@
 //      ***** Practice Problem 1 *****
 // ======================== 
 
-const chekeLength = (name) =>{
+const checkLength = (name) =>{
     if(name.length > 6){
         return "Accept your idea"
     }
@@ -10,9 +10,9 @@ const chekeLength = (name) =>{
         return"Please change your idea"
     }
 }
-console.log(chekeLength("JavaScript"))
+console.log(checkLength("JavaScript"))
 // Output:Accept your idea
-console.log(chekeLength("HTML")) 
+console.log(checkLength("HTML")) 
 // Output: Please change your idea
 
 
@@ -165,7 +165,7 @@ console.log(checkEven(10));
 
 const checkAge = (age) =>{
     if(age >= 18){
-        return "You are adul.t"
+        return "You are adult."
     }
     else{
         return "You are a minor."
