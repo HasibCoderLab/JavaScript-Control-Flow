@@ -50,9 +50,13 @@ console.log(whatLove("Coding"))
 // Output: He/She loves technology.
 
 
-// -----------------------------------------------------------------
+// ----------------------------------------------------------------
 
 
 // ========================
 //      ***** Practice Problem 3 *****
 // ======================== 
+
+
+const checkNumber = (num) => num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero"
+console.log(checkNumber(20));
