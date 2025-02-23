@@ -158,3 +158,24 @@ console.log(checkEven(21));
 console.log(checkEven(10));
 // Output: Even
 
+
+// ========================
+//      ***** Practice Problem 7 *****
+// ======================== 
+
+const checkAge = (age) =>{
+    if(age >= 18){
+        return "You are adul.t"
+    }
+    else{
+        return "You are a minor."
+    }
+}
+
+console.log(checkAge(17.9))
+//  Output: You are a minor."
+console.log(checkAge(-19))
+//  Output: You are a minor."
+console.log(checkAge(45));
+
+//  Output: You are a adult."
