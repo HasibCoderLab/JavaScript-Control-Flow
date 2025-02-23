@@ -16,6 +16,18 @@ console.log(checkLength("HTML"))
 // Output: Please change your idea
 
 
+
+
+// ---------------------- Or ---------------------------------
+
+const seeLength = (name) => name.length > 5 ? "Accept your idea" : "Please change our idea"
+
+console.log(checkLength("JavaScript"))
+// Output:Accept your idea
+console.log(checkLength("HTML")) 
+// Output: Please change your idea
+
+
 // -----------------------------------------------------------------
 
 // ========================
@@ -23,7 +35,10 @@ console.log(checkLength("HTML"))
 // ======================== 
 
 const whatLove = (love) =>{
-    if(love === "Rose"){
+    if(!love){
+        return "Please enter a valid choice" ;
+    }
+ else if(love === "Rose"){
        return "He/She  loves flowers.";
     }
 
@@ -44,7 +59,7 @@ console.log(whatLove("Rose"))
 // Output: He/She  loves flowers.
 
 console.log(whatLove(""))
-// Output: He/She is not human.
+// Output: Please enter a valid choice 
 
 console.log(whatLove("Coding"))
 // Output: He/She loves technology.
@@ -85,6 +100,11 @@ console.log(checkNum(4));
 console.log(checkNum(-1))
 // Output: Negative
 
+
+// -----------------------------------------------------------------
+
+
+
 // ========================
 //      ***** Practice Problem 4 *****
 // ======================== 
@@ -110,6 +130,9 @@ console.log(studentNum(50))
 // Output: Pass
 console.log(studentNum(39.99));
 // Output: Fail
+
+
+// -----------------------------------------------------------------
 
 
 // ========================
@@ -138,6 +161,8 @@ console.log(biggestNumber(0.5,0))
 // Output: 0.5
 
 
+// -----------------------------------------------------------------
+
 
 
 // ========================
@@ -157,6 +182,9 @@ console.log(checkEven(21));
 // Output: Odd
 console.log(checkEven(10));
 // Output: Even
+
+
+// -----------------------------------------------------------------
 
 
 // ========================
