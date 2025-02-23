@@ -112,3 +112,22 @@ console.log(studentNum(39.99));
 // Output: Fail
 
 
+// ========================
+//      ***** Practice Problem 5 *****
+// ======================== 
+
+const biggestNumber =  (a,b) =>{
+    if(a > b){
+        return a
+    }
+    //   else if (a < b){
+    //     return b
+    //   }
+    else{
+        return b
+    }
+}
+
+console.log(biggestNumber(10,20))
+console.log(biggestNumber(30,10));
+console.log(biggestNumber(20,30))
