@@ -85,4 +85,30 @@ console.log(checkNum(4));
 console.log(checkNum(-1))
 // Output: Negative
 
+// ========================
+//      ***** Practice Problem 4 *****
+// ======================== 
+
+const studentNumber = (input) => input >= 40 ? "Pass" : "Fail"
+console.log(studentNumber(50))
+// Output: Pass
+
+// -------------------- Or   -------------------------------
+
+const studentNum = (input) =>{
+if(input >= 40){
+    return "Pass"
+}
+else{
+    return "Fail"
+}
+}
+
+console.log(studentNum(30))
+// Output: Fail
+console.log(studentNum(50))
+// Output: Pass
+console.log(studentNum(39.99));
+// Output: Fail
+
 
