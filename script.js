@@ -59,4 +59,30 @@ console.log(whatLove("Coding"))
 
 
 const checkNumber = (num) => num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero"
-console.log(checkNumber(20));
+console.log(checkNumber(10));
+// Output: Positive
+console.log(checkNumber(-10));
+// Output: Negative
+
+
+
+// -------------------- Or   -------------------------------
+
+const checkNum  = (num) =>{
+if(num > 0){
+    return "Positive"
+}
+else if(num < 0){
+    return "Negative"
+}
+else{
+    return "Zero"
+}
+}
+
+console.log(checkNum(4));
+// Output: Positive
+console.log(checkNum(-1))
+// Output: Negative
+
+
