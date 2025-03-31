@@ -233,3 +233,7 @@ console.log(checkAge(-19))
 console.log(checkAge(45));
 
 //  Output: You are a adult."
+
+
+
+
